@@ -11,7 +11,7 @@
 
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { nanoid } from 'https://cdn.skypack.dev/nanoid'
+import { nanoid } from 'nanoid'
 import { Zap, Shield, ArrowRight, Loader } from 'lucide-react'
 import Dropzone from '../components/Dropzone.jsx'
 import { createRoom } from '../lib/signaling.js'
